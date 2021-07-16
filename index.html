@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=380">
+   <link rel="stylesheet" href="./css/style.css" type="text/css">
+   <link rel="shortcut icon" href="/images/miu-icon.png" type="image/x-icon">
+   <title>MIU - calculator</title>
+</head>
+
+<body>
+
+   <main class="calculator__container">
+      <input type="text" id="result" class="calculator__line" readonly>
+      <div class="calculator__row">
+         <button type="button" class="item font-small orange" id="clean">AC</button>
+         <button type="button" class="item delete orange" id="delete">&times;</button>
+         <button type="button" class="item orange" id="percent">%</button>
+         <button type="button" class="item orange" id="division">&divide;</button>
+      </div>
+      <div class="calculator__row">
+         <button type="button" class="item" id="seven">7</button>
+         <button type="button" class="item" id="eight">8</button>
+         <button type="button" class="item" id="nine">9</button>
+         <button type="button" class="item orange" id="multiply">&times;</button>
+      </div>
+      <div class="calculator__row">
+         <button type="button" class="item" id="four">4</button>
+         <button type="button" class="item" id="five">5</button>
+         <button type="button" class="item" id="six">6</button>
+         <button type="button" class="item orange" id="minus">&minus;</button>
+      </div>
+      <div class="calculator__row">
+         <button type="button" class="item" id="one">1</button>
+         <button type="button" class="item" id="two">2</button>
+         <button type="button" class="item" id="three">3</button>
+         <button type="button" class="item orange" id="plus">&plus;</button>
+      </div>
+      <div class="calculator__row">
+         <button type="button" class="item btn-more" id="more">
+            <span class="arrow">
+               <img src="./images/arrow.png" alt="">
+            </span>
+            <span class="arrow">
+               <img src="./images/arrow.png" alt="">
+            </span>
+         </button>
+         <button type="button" class="item" id="zero">0</button>
+         <button type="button" class="item" id="comma">&comma;</button>
+         <button type="button" class="item equally" id="equality"><img src="./images/equally.png" alt=""></button>
+      </div>
+   </main>
+   <div class="info-modal" id="modal">
+      In development
+   </div>
+   <script src="./js/script.js"></script>
+</body>
+
+</html>
