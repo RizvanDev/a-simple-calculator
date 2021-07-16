@@ -78,9 +78,11 @@ document.getElementById('equality').onclick = function () {
    if (result) {
       document.getElementById('result').value = eval(result);
    };
-
    if (document.getElementById('result').value == Infinity) {
       document.getElementById('result').value = "You can't divide it by 0";
+   };
+   if (document.getElementById('result').value == "NaN") {
+      document.getElementById('result').value = 0;
    };
 };
 
