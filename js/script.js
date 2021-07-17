@@ -105,3 +105,34 @@ percent.addEventListener('click', function (e) {
 more.addEventListener('click', function (e) {
    showInfoModal();
 });
+
+document.getElementById('checkbox-1').onclick = function () {
+
+   let white = document.querySelectorAll('.white');
+
+   if (document.getElementById('checkbox-2').style.right != "20px") {
+      document.getElementById('checkbox-2').style.right = "20px";
+      document.querySelector('body').style.background = "#fff";
+      document.querySelector('.checkbox__text').style.color = "#0009"
+      document.querySelector('.calculator__line').style.background = "#fff";
+      document.querySelector('.calculator__line').style.color = "#000";
+      document.querySelector('.info-modal').style.color = "#000";
+
+      for (let a = 0; a < white.length; a++) {
+         white[a].style.color = '#000';
+      }
+
+   } else if (document.getElementById('checkbox-2').style.right = "20px") {
+      document.getElementById('checkbox-2').style.right = "0";
+      document.querySelector('body').style.background = "#000";
+      document.querySelector('.checkbox__text').style.color = "#fff9"
+      document.querySelector('.calculator__line').style.background = "#000";
+      document.querySelector('.calculator__line').style.color = "#fff";
+      document.querySelector('.info-modal').style.color = "#fff9";
+
+      for (let a = 0; a < white.length; a++) {
+         white[a].style.color = '#fff';
+      }
+
+   };
+};
