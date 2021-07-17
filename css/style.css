@@ -190,14 +190,14 @@ body {
 .calculator__container {
   padding: 20px;
   max-width: 360px;
-  margin: 100px auto 0;
+  margin: 130px auto 0;
   position: relative;
   border: 1px dotted #6662;
 }
 
 .calculator__line {
-  max-width: 350px;
-  height: 50px;
+  max-width: 390px;
+  height: 70px;
   text-align: right;
   margin-bottom: 10px;
   font-size: 26px;
@@ -206,9 +206,10 @@ body {
   color: #fff;
   outline: none;
   border: none;
+  resize: none;
   border-bottom: 1px solid #fff2;
-  overflow-x: auto;
   padding: 10px;
+  overflow-x: auto;
 }
 
 .calculator__row {
@@ -334,7 +335,7 @@ body {
 
 .info-modal {
   position: absolute;
-  top: 60px;
+  top: 90px;
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);

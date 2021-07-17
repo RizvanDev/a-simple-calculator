@@ -74,7 +74,6 @@ document.getElementById('equality').onclick = function () {
 
    let result = document.getElementById('result').value;
 
-
    if (result) {
       document.getElementById('result').value = eval(result);
    };
