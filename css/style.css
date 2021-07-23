@@ -231,18 +231,18 @@ body {
 }
 
 .calculator__container {
-  padding: 20px;
-  max-width: 360px;
+  padding: 15px;
+  max-width: 390px;
   margin: 150px auto 0;
   position: relative;
   border: 1px dotted #6662;
 }
 
 .calculator__line {
-  max-width: 390px;
+  width: 350px;
+  margin: 0 auto 10px;
   height: 70px;
   text-align: right;
-  margin-bottom: 10px;
   font-size: 26px;
   font-weight: 300;
   background: #000;
@@ -250,7 +250,7 @@ body {
   outline: none;
   border: none;
   resize: none;
-  border-bottom: 1px solid #fff2;
+  border-bottom: 1px solid #6663;
   padding: 10px;
   overflow-x: auto;
   -webkit-transition: 0.2s;
@@ -267,7 +267,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 4.7rem;
+  gap: 4rem;
 }
 
 .calculator__row + .calculator__row {
